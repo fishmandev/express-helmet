@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  express-helmet:
+    image: node:15.14.0-slim
+    container_name: express-helmet
+    tty: true
+    volumes:
+      - ./src:/home/node/express-helmet
